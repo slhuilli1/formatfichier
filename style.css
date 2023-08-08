@@ -1,0 +1,39 @@
+.un-element-deformate .libelle {
+  float: left;
+}
+
+.un-element-deformate .type {
+  color: red;
+  float: right;
+}
+
+.auteur {
+  float: left;
+ 
+  text-align: left;
+}
+
+.date {
+  float: right;
+}
+
+
+.un-element-deformate {
+
+    border: 2px solid black;
+    padding: 1%;
+    margin: 1%;
+    background-color: lightgray;
+
+}
+
+.un-element-deformate .url a::before {
+  content: "\1F517";
+}
+
+.un-element-deformate .reference {
+  float: left;
+  font-weight: bold;
+  margin-left: 1%;
+  color: green;
+}

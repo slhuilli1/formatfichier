@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="Content">
+	<name>Format fichier</name>
+	<author>Sebastien LHUILLIER</author>
+	<creationDate>Janvier 2023</creationDate>
+	<copyright>Sébastien LHUILLIER</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>sebastien.lhuillier+joomla@gmail.com</authorEmail>
+	<authorUrl>www.sebastien-lhuillier.com</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[<div style="font-weight:bold;">Afficher les homologations ou non selon les dates en param sous la forme </div>]]></description>
+	<files>
+		<filename plugin="formatfichier">formatfichier.php</filename>
+		<filename>formatfichier.xml</filename>
+		<filename>style.css</filename>		
+	</files>	
+	<config>
+	<fields name="params">
+		<fieldset name="basic">
+			
+			<field name="Déclaration" type="note" class="alert" label="Déclaration dans vos articles" description="{un-fichier|type:tckit|taille:20 Mo|auteur:Sébastien LHUILLIER|date:20/09/2013|url:__DOCUMENT/fic.pdf|libelle:ceci est le libellé du fichier|ref-interne:39054-4}"/>
+			
+		</fieldset>
+	</fields>
+	
+	</config>
+</extension>
+
